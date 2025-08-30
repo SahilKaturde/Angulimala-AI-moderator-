@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Angulimala AI Moderator",
+  "version": "1.0",
+  "description": "Checks for hate speech before posting comments and gives reflective questions.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.instagram.com/*",
+    "http://localhost:8000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
