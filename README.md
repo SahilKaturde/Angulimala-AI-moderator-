@@ -11,6 +11,14 @@ Hate speech and abusive content on social media have been rising worldwide (2021
 Victims and bystanders often face **depression, anxiety, social fear, and polarization**.  
 Inspired by the Buddhist tale of **Angulimala’s transformation**, this project aims to **reduce negativity online and help users rethink toxic behavior**.  
 
+
+🪷 The Story Behind Angulimala
+
+In ancient India, Angulimala was feared as a ruthless bandit who wore a necklace of fingers taken from his victims.
+One day, as he pursued his next target, he encountered the Buddha. Despite Angulimala’s threats, the Buddha remained calm and compassionate.
+
+Through their conversation, Angulimala realized the futility of hatred and violence.
+He renounced his past, transformed his life, and became a devoted monk who spread peace and kindness instead of fear.
 ---
 
 ## ✨ Features  
