@@ -59,55 +59,55 @@ Inspired by the Buddhist tale of **Angulimala’s transformation**, this project
 
 ## 🏗️ Architecture  
 
-## 🏗️ Architecture  
-
-### Diagram  
-![Architecture](angulimala_detailed_flow.png)  
-
-### Flow  
-1. **Frontend (React + Chrome Extension)** → user submits text.  
-2. **Backend (Django + DRF)** → routes to **local hate detection model**.  
-3. **Threshold Check:**  
-   - ✅ Below threshold → Safe → return result.  
-   - ❌ Above threshold → query retriever.  
-4. **Retriever + ChromaDB** → fetches 1 reflective question (from 150 stored).  
-5. **Frontend** → displays reflective question with Yes/No choice.  
-6. **Optional chatbot** → deeper conversation with the user.  
-
-### Project Structure
-```plaintext
+*(Architecture diagram inside repo screenshots if available — replace placeholder when added)*  
 Angulimala-AI-moderator-/
 │
-├── backend/            # Django backend
-│   ├── moderator/      # Main app (API, models, views, retriever, hate model)
-│   ├── backend/        # Django project settings
+├── backend/                         # Django backend (API + moderation logic)
+│   ├── moderator/                   # Main app
+│   │   ├── migrations/              # Django migrations
+│   │   ├── chroma_client.py         # Retriever + ChromaDB connector
+│   │   ├── hate_model.py            # Hate detection model wrapper
+│   │   ├── models.py                # Database models
+│   │   ├── serializers.py           # DRF serializers
+│   │   ├── views.py                 # API views (moderation, chatbot, etc.)
+│   │   └── urls.py                  # App routes
+│   ├── backend/                     # Django project settings
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
 │   ├── manage.py
 │   └── requirements.txt
 │
-├── frontend/           # React frontend
+├── frontend/                        # React frontend (user interface)
 │   ├── public/
 │   ├── src/
-│   │   ├── components/ 
-│   │   ├── pages/
+│   │   ├── components/              # React components (Chatbot, Dashboard, etc.)
+│   │   ├── pages/                   # Page-level components
 │   │   ├── App.js
 │   │   └── index.js
 │   ├── package.json
 │   └── tailwind.config.js
 │
-├── extension/          # Chrome Extension
+├── extension/                       # Chrome Extension
 │   ├── manifest.json
 │   ├── background.js
 │   ├── content.js
 │   └── popup.html
 │
-├── ScreenShot/         # Screenshots for README
-├── docs/               # Documentation & PDFs
+├── ScreenShot/                      # Screenshots for README
+│   ├── Capture2.PNG
+│   ├── Capture3.PNG
+│   ├── Mockup1.png
+│   ├── add.png
+│   └── mobileview.png
+│
+├── docs/                            # Documentation, PDFs, diagrams
 │   └── ANGULIMALA.pdf
 │
 ├── README.md
 └── LICENSE
 
----------
+---
 
 ## 🌍 Impact & Relevance to UNESCO  
 
@@ -148,3 +148,6 @@ Angulimala-AI-moderator-/
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.  
 
 ---
+
+
+
