@@ -59,7 +59,6 @@ Inspired by the Buddhist tale of **Angulimala’s transformation**, this project
 
 ## 🏗️ Architecture  
 
-*(Architecture diagram inside repo screenshots if available — replace placeholder when added)*  
 Angulimala-AI-moderator-/
 │
 ├── backend/                         # Django backend (API + moderation logic)
@@ -106,8 +105,7 @@ Angulimala-AI-moderator-/
 │
 ├── README.md
 └── LICENSE
-
----
+-----------
 
 ## 🌍 Impact & Relevance to UNESCO  
 
