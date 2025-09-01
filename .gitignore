@@ -4,3 +4,4 @@ env/
 .venv/
 *.env 
 *.env 
+Chrome Extension.pem
