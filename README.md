@@ -59,53 +59,10 @@ Inspired by the Buddhist tale of **Angulimala’s transformation**, this project
 
 ## 🏗️ Architecture  
 
-Angulimala-AI-moderator-/
-│
-├── backend/                         # Django backend (API + moderation logic)
-│   ├── moderator/                   # Main app
-│   │   ├── migrations/              # Django migrations
-│   │   ├── chroma_client.py         # Retriever + ChromaDB connector
-│   │   ├── hate_model.py            # Hate detection model wrapper
-│   │   ├── models.py                # Database models
-│   │   ├── serializers.py           # DRF serializers
-│   │   ├── views.py                 # API views (moderation, chatbot, etc.)
-│   │   └── urls.py                  # App routes
-│   ├── backend/                     # Django project settings
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   ├── manage.py
-│   └── requirements.txt
-│
-├── frontend/                        # React frontend (user interface)
-│   ├── public/
-│   ├── src/
-│   │   ├── components/              # React components (Chatbot, Dashboard, etc.)
-│   │   ├── pages/                   # Page-level components
-│   │   ├── App.js
-│   │   └── index.js
-│   ├── package.json
-│   └── tailwind.config.js
-│
-├── extension/                       # Chrome Extension
-│   ├── manifest.json
-│   ├── background.js
-│   ├── content.js
-│   └── popup.html
-│
-├── ScreenShot/                      # Screenshots for README
-│   ├── Capture2.PNG
-│   ├── Capture3.PNG
-│   ├── Mockup1.png
-│   ├── add.png
-│   └── mobileview.png
-│
-├── docs/                            # Documentation, PDFs, diagrams
-│   └── ANGULIMALA.pdf
-│
-├── README.md
-└── LICENSE
------------
+*(Architecture diagram inside repo screenshots if available — replace placeholder when added)*  
+![Architecture](ScreenShot/Mockup1.png)  
+
+---
 
 ## 🌍 Impact & Relevance to UNESCO  
 
@@ -146,6 +103,3 @@ Angulimala-AI-moderator-/
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.  
 
 ---
-
-
-
