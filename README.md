@@ -65,6 +65,13 @@ He renounced his past, transformed his life, and became a devoted monk who sprea
 
 ---
 
+## 🎥 Video & 📄 PDF Resources
+
+- 📹 **Demo Video:** [WhatsApp Video 2025-08-30 at 07.22.08](ScreenShot/video/WhatsApp%20Video%202025-08-30%20at%2007.22.08.mp4)  
+- 📄 **Project PDF:** [ANGULIMALA PDF](ScreenShot/pdf/ANGULIMALA%20PDF.pdf)  
+
+---
+
 ## 🏗️ Architecture  
 
 *(Architecture diagram inside repo screenshots if available — replace placeholder when added)*  
@@ -95,7 +102,7 @@ He renounced his past, transformed his life, and became a devoted monk who sprea
 
 ## 🚀 Demo  
 
-📽️ [YouTube Demo Link](#) *(insert actual link)*  
+📽️ [YouTube Demo Link](#) *(https://www.youtube.com/watch?v=2nhq8GYAvEk&feature=youtu.be)*  
 
 ---
 
