@@ -94,7 +94,7 @@ Inspired by the Buddhist tale of **Angulimala’s transformation**, this project
 ## 📩 Contact  
 
 - Repository: [GitHub - Angulimala AI Moderator](https://github.com/SahilKaturde/Angulimala-AI-moderator-)  
-- Email: *(add your contact if needed)*  
+- Email:  
 
 ---
 
